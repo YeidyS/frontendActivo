@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {CardGroup,Card,Button,Container,Form,Row,Col} from "react-bootstrap";
-import img from '../img/logoCND.png'
+//import img from '../img/logoCND.png'
 import '../estilos/login.css'
 
 class RLogin extends React.Component {
@@ -13,7 +13,7 @@ class RLogin extends React.Component {
                     <Row className="row-2">
                         <Col lg={4} md={6} sm={12} className="text-logo">
                             <div><i className="bi bi-backspace-fill"></i></div>
-                            <img className="imglog" src={img} alt="" />
+                            <img className="imglog" src="" alt="" />
                             <p className="p">Ingresa tus datos!</p>
                             <Form className="form-l">
                                 <Form.Group className="labels">

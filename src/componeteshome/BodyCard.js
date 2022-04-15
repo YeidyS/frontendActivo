@@ -13,7 +13,7 @@ export default function Bootstrap() {
       <div className="bodycard">
         <CardGroup>
           <Card className="card" border="secondary" style={{ width: '18rem' }}>
-            <Link className="nav-link" to='/registraractivo'><Card.Img variant="top" src={imgregist} /></Link>
+            <Link className="nav-link" to='/registraractivo'><Card.Img variant="top" src="https://res.cloudinary.com/hdnweb/image/upload/v1649985218/h29oyxiv9g6gnkgud7er.png" /></Link>
             <Card.Body>
               <Card.Title>Registrar Activo</Card.Title>
               <Link className="nav-link" to='/registraractivo'>IR</Link>
